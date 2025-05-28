@@ -1,4 +1,5 @@
 Sales Data Analysis of a Commercial Store 🛒📊
+
 This project focuses on analyzing real-world sales data from a commercial store using Python. It aims to extract valuable business insights through data cleaning, transformation, and visualization techniques.
 
 📌 Project Highlights
