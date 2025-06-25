@@ -17,7 +17,7 @@ To understand public sentiment toward specific topics, products, or events by an
 
 ## 📂 Dataset
 
-- Source: Sentiment Analysis Dataset Kaggle
+- Source: Sentiment Analysis Dataset Kaggale
 
 
 ---
