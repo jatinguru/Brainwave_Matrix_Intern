@@ -1,59 +1,57 @@
-# Sales Data Analysis of a Commercial Store 🛒📊
+# 🧠 Social Media Sentiment Analysis
 
-This project focuses on analyzing real-world sales data from a commercial store using Python. It aims to extract valuable business insights through data cleaning, transformation, and visualization techniques.
+Analyze public sentiment on social media (e.g., Twitter) using Natural Language Processing (NLP) and Machine Learning.
 
+---
 
+## 📌 Project Objective
 
- 📌 Project Highlights
+To understand public sentiment toward specific topics, products, or events by analyzing social media text data. The project involves:
 
-- 🔍 Exploratory Data Analysis (EDA)
-- 🏙️ City-wise and Monthly Sales Trends
-- ⏰ Peak Purchase Hours
-- 🛍️ Most Sold Products
-- 🎯 Product Pair Analysis (Frequently Bought Together)
+- Text cleaning and preprocessing
+- Sentiment scoring using **VADER** and **TextBlob**
+- Classification using ML models (Logistic Regression, Naive Bayes)
+- Visualization of sentiment trends over time
 
+---
 
+## 📂 Dataset
 
- 🛠️ Technologies Used
+- **Source:** Sentiment Analysis Dataset Kaggale
 
-- **Python** – Core programming language
-- **Pandas** – Data manipulation and preprocessing
-- **Matplotlib & Seaborn** – Data visualization
-- **Jupyter Notebook** – Interactive analysis
+---
 
+## 🛠️ Tools & Libraries Used
 
+- **Python, Pandas, NLTK, TextBlob, VADER**
+- **Scikit-learn** (ML models)
+- **Matplotlib, Seaborn, Plotly** (visualizations)
+- **WordCloud**
 
- 📂 Dataset Overview
+---
 
-The dataset includes:
-- `Order ID`
-- `Product`
-- `Quantity Ordered`
-- `Price Each`
-- `Order Date`
-- `Purchase Address`
+## 🚀 Project Workflow
 
-📝 Note: Raw monthly `.csv` files were combined and cleaned to ensure consistency and remove nulls/duplicates.
+1. **Preprocessing**  
+   - Lowercasing, punctuation removal, stopword removal, lemmatization
 
+2. **Sentiment Scoring**  
+   - `TextBlob` polarity score  
+   - `VADER` compound sentiment score
 
+3. **Model Training**  
+   - Logistic Regression and Naive Bayes classifiers  
+   - Evaluation with confusion matrix and classification report
 
- 🔎 Key Insights
+4. **Time-Based Sentiment Analysis**  
+   - Sentiment trend visualization over time grouped by date
 
-1. Best Performing Cities – Which cities generate the most revenue?
-2. Top Selling Months – When do people buy the most?
-3. Purchase Time Patterns – What are the busiest hours?
-4. Most Popular Products – Which products sell the most and why?
-5. Frequently Bought Together – Which product combinations are bought together?
+---
 
+## 📈 Visualizations
 
+- Word clouds
+- Sentiment score distributions
+- Time-series sentiment trends
 
- 📊 Visual Output
-
-All insights are visualized using:
-- Bar charts
-- Line graphs
-- Heatmaps
-- Grouped bar comparisons
-
-These visual tools make the data easier to interpret for business decision-making.
 
