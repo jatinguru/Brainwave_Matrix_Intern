@@ -6,7 +6,7 @@ This repository contains the tasks completed during my Data Science internship a
 
 ## 🔍 Tasks Overview
 
-### ✅ [Task 1 – Sales Data Analysis of a Commercial Store](./Task%201/README.md)
+### ✅ [Task 1 – Sales Data Analysis of a Commercial Store](./Task-1/README.md)
 In this project, I performed exploratory data analysis on a commercial store's sales dataset. The objective was to identify sales trends, understand customer behavior, and provide actionable insights to improve business decisions.
 
 **Key Techniques Used:**
@@ -16,7 +16,7 @@ In this project, I performed exploratory data analysis on a commercial store's s
 
 ---
 
-### ✅ [Task 2 – Social Media Sentiment Analysis](./Task%202/README.md)
+### ✅ [Task 2 – Social Media Sentiment Analysis](./Task-2/README.md)
 This project involved analyzing social media data to assess public sentiment on specific topics or products using natural language processing and machine learning techniques.
 
 **Key Techniques Used:**
